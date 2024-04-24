@@ -8,7 +8,6 @@ import Cyber from './Component/Cyber'
 import Career from './Component/Career'
 
 
-
 const App = () => {
 const obj = [
   {
