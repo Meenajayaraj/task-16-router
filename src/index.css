@@ -1,0 +1,50 @@
+.navbar{
+    box-shadow: 0.5px 0.5px 5px grey;
+}
+
+.navbar-nav{
+    
+    
+    a{
+        color: grey;
+        margin-left: 50px;
+        text-decoration: none;
+        
+        
+    }
+    
+    a::after{
+        content:'';
+        right:0;
+        width: 0;
+        display: block;
+        height: 3px;
+        background-color: rgb(13,186,75);
+        color:rgb(13,186,75);
+        transition: all 0.4s ease-in-out;
+        position: relative;
+        top: 25px;
+    }
+    a:hover::after{
+        
+        left:0;
+        width: 100%;
+    }
+    a:hover{
+        color:rgb(13,186,75);
+    }
+    
+    
+    
+}
+.read{
+    color: rgb(13,186,75);
+}
+.burger{
+    border-radius: 5px;
+    background-color: rgb(13,186,75);
+    color: white;
+}
+.card:hover{
+    box-shadow: 5px 5px 25px black;
+}
